@@ -1,4 +1,4 @@
-# Job Application Tracker V1.5 Cloud Edition
+# Job Application Tracker V1.6 Cloud Edition
 
 GitHub Pages + Supabase Auth + Supabase database.
 
@@ -12,3 +12,6 @@ For migration, open V1.4 on the same browser/domain containing V1.3 data, sign i
 
 
 V1.5 adds Hired status, revised dashboard metrics, and compact application cards with stronger position-first hierarchy.
+
+
+V1.6: data-dense responsive list/table layout and compact pipeline metrics.
