@@ -1,21 +1,11 @@
-# Job Application Tracker V1.3
+# Job Application Tracker V1.4 Cloud Edition
 
-Full replacement release for GitHub Pages.
+GitHub Pages + Supabase Auth + Supabase database.
 
-## Design
-- Layered dark futuristic background with emerald and cyan ambient aurora
-- True translucent glass panels with blur, subtle gradient borders and depth
-- Emerald primary interactions, cyan data accents, soft gold priority/highlight accents
-- Compact SaaS-style metrics, polished controls, modal, cards, hover/focus states
-- Responsive desktop and mobile layouts
+Features: cloud CRUD, email/password auth, RLS-compatible access, phone/laptop sync, manual sync, V1.3 localStorage migration, analytics, search/filter/archive, JSON export, responsive futuristic glass UI.
 
-## Features
-- Add, edit, delete, archive and restore
-- Search, status filter, newest/oldest/company/priority sorting
-- Analytics status chart
-- Salary, location, platform, priority, date, job link, resume version and notes
-- JSON export/import backup
-- LocalStorage persistence
-- Automatic migration attempt from V1.2 or V1.1 LocalStorage keys when V1.3 first opens
+Upload ZIP contents to the existing repository root and replace old files.
 
-Upload the CONTENTS of the ZIP to your GitHub repository root, replacing old files.
+The publishable key in config.js is intended for frontend use. Never add database passwords, secret keys, or service_role keys.
+
+For migration, open V1.4 on the same browser/domain containing V1.3 data, sign in, click Migrate to Cloud once, and verify cloud records. Repeating migration can create duplicates.
